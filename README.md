@@ -1,4 +1,4 @@
-# AI Leverage Assessment
+# AI Flywheel
 
 Measure how much work your AI can do without you.
 
@@ -30,7 +30,7 @@ Works for **everyone** — from ChatGPT in the browser to autonomous agent swarm
 ## Install (Claude Code users)
 
 ```bash
-mkdir -p ~/.claude/commands && curl -sL https://raw.githubusercontent.com/mateofh/ai-assessment/main/.claude/commands/level-up.md -o ~/.claude/commands/level-up.md
+mkdir -p ~/.claude/commands && curl -sL https://raw.githubusercontent.com/mateofh/ai-flywheel/main/.claude/commands/level-up.md -o ~/.claude/commands/level-up.md
 ```
 
 Then run:
@@ -41,7 +41,7 @@ Then run:
 
 ## Don't have Claude Code?
 
-Take the assessment on the web (coming soon): **ai-leverage.dev/assess**
+Take the assessment on the web (coming soon): **aiflywheel.com/assess**
 
 6 questions. 2 minutes. Same score.
 

@@ -1,8 +1,8 @@
 ---
-description: AI Leverage Assessment — measure your AI power across 5 dimensions, from ChatGPT to autonomous agents
+description: AI Flywheel — measure how much work your AI can do without you
 ---
 
-# AI Leverage Assessment
+# AI Flywheel
 
 Measure how much work your AI can do without you. Works for everyone — from ChatGPT in the browser to autonomous agent swarms.
 
@@ -145,7 +145,7 @@ Silently scan everything. Do NOT ask permission. Gather raw signals.
 ### Step 3.1: The Score
 
 ```
-## AI Leverage Assessment
+## AI Flywheel
 
 ### Your Tier: [TIER_NAME] ([TOTAL]/30)
 
@@ -207,7 +207,7 @@ ALWAYS generate and open an HTML dashboard.
 
 ### Instructions
 1. Build self-contained HTML, replace all `{{TOKENS}}`
-2. Write to `~/Desktop/ai-leverage-results.html`
+2. Write to `~/Desktop/ai-flywheel-results.html`
 3. Open in browser (`open` on macOS)
 
 ### HTML Template
@@ -218,7 +218,7 @@ ALWAYS generate and open an HTML dashboard.
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Leverage: {{TIER_NAME}} ({{TOTAL_SCORE}}/30)</title>
+<title>AI Flywheel: {{TIER_NAME}} ({{TOTAL_SCORE}}/30)</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { background: #0a0a0a; color: #fff; font-family: 'SF Mono', Consolas, 'Courier New', monospace; min-height: 100vh; }
@@ -335,7 +335,7 @@ ALWAYS generate and open an HTML dashboard.
     <div class="cta-title">{{CTA_TITLE}}</div>
     <div class="cta-text">{{CTA_TEXT}}</div>
   </div>
-  <div class="footer">AI Leverage Assessment v2.0<br><a href="https://github.com/mateofh/ai-assessment">github.com/mateofh/ai-assessment</a></div>
+  <div class="footer">AI Flywheel v2.0<br><a href="https://github.com/mateofh/ai-flywheel">github.com/mateofh/ai-flywheel</a></div>
 </div>
 <script>
 function copyShare(btn) {
@@ -359,7 +359,7 @@ Use class `s0` through `s5` matching the score. Color gradient: s1=red, s2=orang
 
 ### Share Copy Format
 ```
-Just ran the AI Leverage Assessment.
+Just ran the AI Flywheel.
 
 Tier: {{TIER_NAME}} ({{TOTAL_SCORE}}/30)
 
@@ -373,9 +373,9 @@ Autonomy:        {{BARS}} {{SCORE}}/5
 
 Signature: {{SIG_NAME}} — {{SIG_SHORT}}
 
-What's your AI leverage? → github.com/mateofh/ai-assessment
+What's your AI flywheel? → github.com/mateofh/ai-flywheel
 
-#AILeverage
+#AIFlywheel
 ```
 
 Bar characters: `█████` for 5/5, `████░` for 4/5, `███░░` for 3/5, `██░░░` for 2/5, `█░░░░` for 1/5, `░░░░░` for 0/5.
