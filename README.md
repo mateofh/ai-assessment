@@ -30,7 +30,7 @@ Works for **everyone** — from ChatGPT in the browser to autonomous agent swarm
 ## Install (Claude Code users)
 
 ```bash
-mkdir -p ~/.claude/commands && curl -sL https://raw.githubusercontent.com/mateovalenzuela/ai-assessment/main/.claude/commands/level-up.md -o ~/.claude/commands/level-up.md
+mkdir -p ~/.claude/commands && curl -sL https://raw.githubusercontent.com/mateofh/ai-assessment/main/.claude/commands/level-up.md -o ~/.claude/commands/level-up.md
 ```
 
 Then run:

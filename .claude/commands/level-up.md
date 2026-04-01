@@ -335,7 +335,7 @@ ALWAYS generate and open an HTML dashboard.
     <div class="cta-title">{{CTA_TITLE}}</div>
     <div class="cta-text">{{CTA_TEXT}}</div>
   </div>
-  <div class="footer">AI Leverage Assessment v2.0<br><a href="https://github.com/mateovalenzuela/ai-assessment">github.com/mateovalenzuela/ai-assessment</a></div>
+  <div class="footer">AI Leverage Assessment v2.0<br><a href="https://github.com/mateofh/ai-assessment">github.com/mateofh/ai-assessment</a></div>
 </div>
 <script>
 function copyShare(btn) {
@@ -373,7 +373,7 @@ Autonomy:        {{BARS}} {{SCORE}}/5
 
 Signature: {{SIG_NAME}} — {{SIG_SHORT}}
 
-What's your AI leverage? → github.com/mateovalenzuela/ai-assessment
+What's your AI leverage? → github.com/mateofh/ai-assessment
 
 #AILeverage
 ```
